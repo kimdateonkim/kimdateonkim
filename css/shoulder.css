@@ -9,7 +9,7 @@ header {
 }
 
 .wrap{
-  width:1280px;
+  max-width:1280px;
   margin:auto;
   display:flex;
   flex-wrap:wrap;
@@ -17,7 +17,12 @@ header {
   
 
 .wrap .bag{
+  width:33.3333%;
   border: 1px solid #e6e2e4;
+}
+.wrap .bag img{
+  display:block;
+  width:100%;
 }
 
 .box{
@@ -27,4 +32,15 @@ header {
   margin-bottom:20px;
 }
 
+@media  screen and (max-width:768px) {
+  .wrap .bag{
+    width:50%;
+  }
+}
+
+@media  screen and (max-width:480px) {
+  .wrap .bag{
+    width:100%;
+  }
+}
 

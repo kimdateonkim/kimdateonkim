@@ -8,7 +8,7 @@ header {
   background:#ffffff;
 }
 .wrap{
-  width:1280px;
+  max-width:1280px;
   margin:auto;
   display:flex;
   flex-wrap:wrap;
